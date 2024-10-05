@@ -5053,8 +5053,8 @@ const singboxConfigTemp = {
         {
             type: "tun",
             tag: "tun-in",
-            inet4_address: "172.19.0.1/28",
-            inet6_address: "fdfe:dcba:9876::1/126",
+            inet4_address: "198.18.0.0/15",
+            inet6_address: "fc00::/18",
             mtu: 9000,
             auto_route: true,
             strict_route: true,
